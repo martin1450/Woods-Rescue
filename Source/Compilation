@@ -1,0 +1,23 @@
+
+WOODS RESCUE
+
+
+Compilation instructions
+------------------------
+This video game has been developed using cpctelera
+
+To use the same version of cpctelera you need to follow this steps:
+
+- git clone https://github.com/lronaldo/cpctelera
+- git checkout 2cff69fa0936714597a036da94b3d9db2bf5b2e7
+- make clean && make
+
+To compile the game you need go to the game folder a execute the next instruction:
+
+- make clean && make  
+
+* The code starts at 0x1154 (defined in build_config.mk --> Z80CODELOC)
+** The fist byte is located at 0x0040
+*** Run address (loader) is 0x57E7
+
+WOODS RESCUE IS RELEASED UNDER GNU GENERAL PUBLIC LICENSE, VERSION 3. SOURCE CODE IS INCLUDED. 
